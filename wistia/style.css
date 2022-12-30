@@ -1,0 +1,320 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+    background-color: rgb(231, 103, 103);
+}
+header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding: 20px 0px;
+    top: 0px;
+    color: grey;
+    position: fixed;
+    background-color: white;
+}
+header .logo{
+    width: 20%;
+    display: flex;
+    padding-left: 15px;
+}
+header .logo:first-child{
+    width: 10%;
+}
+header .logo img{
+    width: 90%;
+}
+header .logo p a{
+    font-size: xx-large;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+header .logo p a:hover{
+    color: rgb(192, 0, 0);
+}
+header .option{
+    display: flex;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .option p{
+    padding: 5px 25px 0px 0px;
+}
+header .option p a{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+header .op1 a:hover{
+    color: rgb(182, 35, 35);
+}
+header .op2 a:hover{
+    color: rgb(55, 138, 62);
+}
+header .op3 a:hover{
+    color: rgba(255, 60, 60, 0.507);
+}
+header .op4 a:hover{
+    color: rgb(13, 107, 170);
+}
+header .op5 a:hover{
+    color: rgb(231, 18, 196);
+}
+
+header .log{
+    margin-left: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+header .log a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.815);
+}
+header #talk{
+    padding-top: 5px;   
+}
+header #talk:hover{
+    padding-top: 0px;
+    transition: 100ms;
+}
+header #login{
+    margin: -5px 10px -5px 15px;
+    padding: 10px 30px 0px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+}
+header #login:hover{
+    border-bottom: 5px solid rgb(204, 204, 204);
+    margin: -12px 10px 0px 15px;
+    transition: 100ms;
+}
+header #start a{
+    color: white;
+}
+header #start{
+    background-color: rgb(192, 0, 0);
+    padding: 10px 30px 6px 30px;
+    margin: -5px 10px -5px 10px;
+    border-radius: 5px;
+}
+header #start:hover{
+    border-bottom: 5px solid rgb(153, 0, 0);
+    margin: -12px 0px 0px 10px;
+    transition: 100ms;
+}
+
+
+.content1{
+    background-color: rgb(231, 103, 103);
+    display: flex;
+    padding-top: 100px;
+}
+.content1 .left{
+    width: 35%;
+    padding: 90px 50px;
+    margin: 90px 50px;
+    background-color: rgba(255, 59, 59, 0.774);
+    border-radius: 20px;
+}
+.content1 .left video{
+    border-radius: 20px;
+}
+.content1 .right{
+    margin: 0px 0px 0px 50px;
+}
+.content1 .right h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    color: white;
+}
+.content1 .right p{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    margin-bottom: 50px;
+}
+.content1 .right .button {
+    display: flex;
+}
+.content1 .right .button #b1{
+    padding: 20px 40px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(192, 0, 0);
+}
+.content1 .right .button #b1:hover{
+    padding: 20px 40px;
+    margin-top: 0px;
+    transition: 100ms;
+    border-bottom: 5px solid rgb(172, 0, 0);
+}
+.content1 .right .button #b2{
+    padding: 18px 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    color: rgb(192, 0, 0);
+    border: 2px solid rgb(192, 0, 0);
+    transition: 100ms;
+}
+.content1 .right .button #b2:hover{
+    padding: 18px 40px;
+    margin-top: 0px;
+    border-bottom: 5px solid rgb(172, 0, 0);
+}
+
+.content2{
+    background-color: rgb(231, 103, 103);
+    display: flex;
+    justify-content: center;
+}
+.content2 div{
+    background-color: white;
+    margin: 0px 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 30%;
+    border-radius: 15px;
+    transition: 250ms;
+}
+.content2 div:hover{
+    margin-top: 0px;  
+    margin-bottom: 10px;
+    box-shadow: 1px 5px 15px 5px rgb(180, 55, 55);
+}
+.content2 a{
+    text-decoration: none;
+}
+.content2 p{
+    padding: 35px;
+    color: rgb(211, 64, 59);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.content2 h3{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.content2 .left h3{
+    color: blueviolet;
+}
+.content2 .center h3{
+    color: rgba(7, 129, 78, 0.849);
+}
+.content2 .right h3{
+    color: rgb(255, 123, 163);
+}
+
+h1{
+    padding: 150px 0px 50px 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(192, 0, 0);
+}
+
+.vid2{
+    padding: 50px 150px;
+}
+.vid2 video{
+    width: 100%;
+}
+
+.content3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.content4{
+    background-image: url("https://images.ctfassets.net/j7pfe8y48ry3/6uL9MhqonSpVatMeizwv39/2b2b326873696009a60b082f3ab995c7/Home-Footer--Squiggle--10.jpg");
+    background-size: cover;
+}
+.content4 p{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 150px;
+    color: rgb(80, 80, 80);
+}
+.content4 div{
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.content4 div a img{
+    border-radius: 10px;
+    border: 3px solid rgb(192, 0, 0);
+    margin-top: 20px;
+    transition: 100ms;
+}
+.content4 div a img:hover{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    box-shadow: 2px 5px 10px 5px grey;
+}
+
+footer{
+    background-color: #1f1f22;
+}
